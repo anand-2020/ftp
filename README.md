@@ -10,7 +10,9 @@ git clone https://github.com/anand-2020/ftp.git
 cd ftp
 ```
 
-2. Compile the `server.cpp` and `client.cpp` files
+2. Create a folder named FTP_SERVER in the directory containing the server.cpp file and create a file named auth.txt in the FTP_SERVER folder 
+
+3. Compile the `server.cpp` and `client.cpp` files
 
 ```
 g++ server.cpp -o server -lpthread
